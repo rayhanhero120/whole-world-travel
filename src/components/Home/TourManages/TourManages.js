@@ -4,7 +4,7 @@ import TourManage from '../TourManage/TourManage';
 const TourManages = () => {
     const [tourManages, setTourManages] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://ghastly-shadow-01497.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setTourManages(data))
     }, [])

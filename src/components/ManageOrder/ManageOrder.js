@@ -5,7 +5,7 @@ const ManageOrder = () => {
     const [users, setUsers] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://ghastly-shadow-01497.herokuapp.com/users')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])
@@ -13,7 +13,7 @@ const ManageOrder = () => {
     const handleDeleteOrder = id => {
         const proceed = window.confirm('Are you sure,you want to delete?')
         if (proceed) {
-            const url = `http://localhost:5000/users/${id}`
+            const url = `https://ghastly-shadow-01497.herokuapp.com/users/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
