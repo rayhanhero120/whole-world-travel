@@ -1,0 +1,74 @@
+[
+    {
+        "name": "ARGENTINA",
+        "description": "this is very nice place in Argentina .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/mXdPtrJ/river2.jpg"
+    },
+    {
+        "name": "COLOMBIA",
+        "description": "this is very nice place in Colomia .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/njYZCj4/river3.jpg"
+    },
+    {
+        "name": "VIATENAM",
+        "description": "this is very nice place in Viatnam .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/LvsCTkc/city.jpg"
+    },
+    {
+        "name": "ITALY",
+        "description": "this is very nice place in Italy .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/rfYvPKs/city2.jpg"
+    },
+    {
+        "name": "SWITZERLAND",
+        "description": "this is very nice place in Switzerland .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/TPgmpPT/sky-storm.jpg"
+    },
+    {
+        "name": "MOROCCO",
+        "description": "this is very nice place in Morocco .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/G0s0WK5/group-of-young-people-on-kayak-outing-rafting-down-the-river.jpg"
+    },
+    {
+        "name": "CANADA",
+        "description": "this is very nice place in Canada .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/HqL75fp/Tourist-woman-wearing-protective-face-mask-and-exploring-new-place.jpg"
+    },
+    {
+        "name": "IRELAND",
+        "description": "this is very nice place in Ireland .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/sRXwRsY/durbeen.jpg"
+    },
+    {
+        "name": "INDONESIA",
+        "description": "this is very nice place in Indonesia .you will get the good services ni this ciutry agency for world tour.so welcome to here.we are aleart for your secueity",
+        "travel_style": "acive",
+        "service_level": "standard",
+        "trip_type": "small group",
+        "img": "https://i.ibb.co/HG86Pvb/Mother-and-kids-hiking-through-river-Rio-Chillar-in-Andalusia-Spain-They-are-walking-in-the-mountain.jpg"
+    }
+]
