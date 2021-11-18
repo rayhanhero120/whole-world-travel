@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TourManage = ({ tourManage }) => {
-    const { name, description, travel_style, service_level, trip_type, img } = tourManage
+    const { _id, name, description, travel_style, service_level, trip_type, img } = tourManage
     return (
         <div className="col">
             <div className="card h-100">
@@ -12,6 +13,10 @@ const TourManage = ({ tourManage }) => {
                     <p className="fw-bold">Travel style: {travel_style}</p>
                     <p className="fw-bold"> Service level:{service_level}</p>
                     <p className="fw-bold"> Trip type:{trip_type}</p>
+                    <Link to={`/placeOrder/${_id}`}>
+                        <button className="btn btn-primary">Join {name.toLowerCase()}</button>
+
+                    </Link>
                 </div>
             </div>
         </div>

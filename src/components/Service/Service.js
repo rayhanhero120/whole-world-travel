@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Service = ({ service }) => {
-    const { name, description, travel_style, service_level, trip_type, img } = service
+    const { _id, name, description, travel_style, service_level, trip_type, img } = service
     return (
         <div className="col">
             <div className="card h-100">
@@ -13,7 +13,7 @@ const Service = ({ service }) => {
                     <p className="fw-bold">Travel style: {travel_style}</p>
                     <p className="fw-bold"> Service level:{service_level}</p>
                     <p className="fw-bold"> Trip type:{trip_type}</p>
-                    <Link to={`/join/${name}`}>
+                    <Link to={`/placeOrder/${_id}`}>
                         <button className="btn btn-primary">Join {name.toLowerCase()}</button>
 
                     </Link>

@@ -8,12 +8,13 @@ import Login from './components/Login/Login';
 import Header from './components/Home/Shared/Header/Header';
 import Services from './components/Services/Services';
 import AuthProvider from './contexts/AuthProvider';
-import Joining from './components/Joining/Joining/Joining';
+import PlaceOrder from './components/PlaceOrder/PlaceOrder/PlaceOrder';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
-import AddUser from './components/AddUser/AddUser';
+
 import ManageOrder from './components/ManageOrder/ManageOrder';
 import UpdateUser from './components/UpdateUser/UpdateUser';
 import Footer from './components/Footer/Footer';
+import MyOrders from './components/MyOrders/MyOrders';
 
 
 function App() {
@@ -25,7 +26,6 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Home></Home>
-
             </Route>
             <Route path="/home">
               <Home></Home>
@@ -33,12 +33,12 @@ function App() {
             <Route path="/service">
               <Services></Services>
             </Route>
-            <Route path="/users/add">
-              <AddUser></AddUser>
-            </Route>
-            <Route path="/order">
+            <privateRoute path="/users/add">
+              <MyOrders></MyOrders>
+            </privateRoute>
+            <privateRoute path="/order">
               <ManageOrder></ManageOrder>
-            </Route>
+            </privateRoute>
             <Route path="/users/update/:id">
               <UpdateUser></UpdateUser>
             </Route>
@@ -46,8 +46,8 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <PrivateRoute path="/join/:serviceId">
-              <Joining></Joining>
+            <PrivateRoute path="/placeOrder/:serviceId">
+              <PlaceOrder></PlaceOrder>
 
             </PrivateRoute>
             <Route path="*">
